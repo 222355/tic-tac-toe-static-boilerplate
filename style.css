@@ -1,0 +1,37 @@
+body,html{
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;   
+ background-color: dodgerblue;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: Fredoka One;
+}
+.heading{
+    font-size: 30px;
+    color: #FAB201;
+    -webkit-text-stroke: 5px white;
+}
+.gameBox{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    grid-template-columns :repeat(3,80px);
+    grid-template-rows: repeat(3,80px);
+}
+.box{
+    border: 2px solid white;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10%;
+}
+.footer{
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+}
